@@ -7,7 +7,7 @@ annotations:
   truecharts.org/min_helm_version: "3.11"
   truecharts.org/train: stable
 apiVersion: v2
-appVersion: 2.3.1
+appVersion: 3.0.1
 dependencies:
   - name: common
     version: 20.0.9
@@ -45,7 +45,7 @@ maintainers:
 name: romm
 sources:
   - https://github.com/zurdi15/romm
-  - https://github.com/truecharts/charts/tree/master/charts/stable/romm
+  - https://git.shitake.org/loic/truenas-charts-shitake/src/branch/master/community/romm
   - https://ghcr.io/zurdi15/romm
 type: application
-version: 7.10.3
+version: 7.10.79
